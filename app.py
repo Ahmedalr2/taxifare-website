@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import folium
-import streamlit_folium as st_folium
+from streamlit_folium import st_folium
 from geopy.distance import geodesic
 from datetime import datetime
 
